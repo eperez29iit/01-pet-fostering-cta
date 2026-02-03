@@ -1,0 +1,74 @@
+/* Set the font for the entire page */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the CTA banner section */
+.cta-banner {
+  /* Tall banner with minimum height */
+  min-height: 80vh;
+  /* Nature-inspired blue to teal gradient background */
+  background: linear-gradient(to bottom, #4A90E2, #007B7F);
+  /* Center the content vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Add padding for spacing */
+  padding: 20px;
+}
+
+/* Styles for the main heading */
+.cta-banner h1 {
+  /* Large font size for emphasis */
+  font-size: 3em;
+  /* White color for contrast */
+  color: white;
+  /* Margin below the heading */
+  margin-bottom: 20px;
+  /* Bold weight for prominence */
+  font-weight: 700;
+}
+
+/* Styles for the description paragraph */
+.cta-banner p {
+  /* Readable font size */
+  font-size: 1.2em;
+  /* White color for contrast */
+  color: white;
+  /* Margin below the paragraph */
+  margin-bottom: 30px;
+  /* Maximum width for better readability */
+  max-width: 600px;
+}
+
+/* Styles for the CTA button */
+.cta-button {
+  /* Display as inline block for button-like appearance */
+  display: inline-block;
+  /* Padding for size */
+  padding: 15px 30px;
+  /* Bright orange background to stand out */
+  background-color: #FF6B35;
+  /* White text color */
+  color: white;
+  /* Remove underline */
+  text-decoration: none;
+  /* Rounded corners */
+  border-radius: 5px;
+  /* Font size */
+  font-size: 1.2em;
+  /* Bold text */
+  font-weight: 700;
+  /* Transition for hover effect */
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.cta-button:hover {
+  /* Darker orange on hover */
+  background-color: #E55A2B;
+}
