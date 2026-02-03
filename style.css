@@ -24,8 +24,10 @@ header h1 {
 .cta-banner {
   /* Tall banner with minimum height */
   min-height: 80vh;
-  /* Nature-inspired blue to teal gradient background */
-  background: linear-gradient(to bottom, #4A90E2, #007B7F);
+  /* Background image with light overlay */
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
   /* Center the content vertically and horizontally */
   display: flex;
   flex-direction: column;
