@@ -89,3 +89,32 @@ header h1 {
   /* Darker orange on hover */
   background-color: #E55A2B;
 }
+
+/* Styles for the info section */
+.info-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  margin: 0 1%;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
